@@ -41,7 +41,7 @@ local spells =
 
 on_render_menu (function ()
 
-    if not menu.main_tree:push("Necromancer: Base v0.11") then
+    if not menu.main_tree:push("Necromancer: Base v0.15") then
         return;
     end;
 
