@@ -36,12 +36,12 @@ local spells =
     raise_skeleton              = require("spells/raise_skeleton"),
     golem_control               = require("spells/golem_control"),
     soulrift                    = require("spells/soulrift"),  -- 添加soulrift技能
-	decompose					= require("spells/decompose"), -- added Loki
+    decompose			= require("spells/decompose"), -- added Loki
 }
 
 on_render_menu (function ()
 
-    if not menu.main_tree:push("Necromancer: Base v0.1d") then
+    if not menu.main_tree:push("Necromancer: Base v0.11") then
         return;
     end;
 
